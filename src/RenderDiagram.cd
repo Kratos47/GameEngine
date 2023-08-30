@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameObject" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <Members>
+      <Method Name="~GameObject" Hidden="true" />
+      <Method Name="GameObject" Hidden="true" />
+      <Method Name="GetGraphicsObject" Hidden="true" />
+      <Method Name="GetWorld" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetWorld" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABQAAAACAAAgAkAAAARAAgAAAABAAAAAAAAhEAYAQAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poGraphicsObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SimpleGameObject" Collapsed="true">
+    <Position X="15.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIRAAAAAAgAAAgAAAAAAAIIAAIABAAAACAAiAgAAAAA=</HashCode>
+      <FileName>SimpleGameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObjectAnim" Collapsed="true">
+    <Position X="17.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIRAQAABAAAAAAAAQAEAACAIAAEAgAAAAACgEAAQACA=</HashCode>
+      <FileName>GameObjectAnim.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObjectNull" Collapsed="true">
+    <Position X="20" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIgA=</HashCode>
+      <FileName>GameObjectNull.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCSNode" Collapsed="true">
+    <Position X="17.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAQAhEAIAAAgAAIwKAgABgCgGAAIAMAkQEQCjAA=</HashCode>
+      <FileName>E:\study_stuff\usa\classes\abatra2_MSI_Winte_2020\keenan2020winter_gam576\student\abatra2\GameEngine\System_Libs\PCSTree\include\PCSNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObject" Collapsed="true">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACABABAAAYAAAgAAAAAAAQAABAhEAAAAAA=</HashCode>
+      <FileName>GraphicsObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pModel" />
+      <Field Name="pShaderObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Model" Collapsed="true">
+    <Position X="2" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAKAAAAAAAEAAgAAAAAAAACAAAAAAAAggAAAEAAA=</HashCode>
+      <FileName>Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderObject" Collapsed="true">
+    <Position X="9.5" Y="6.75" Width="2" />
+    <NestedTypes>
+      <Enum Name="ShaderObject::Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ShaderObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ShaderObject::Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ShaderObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIgAAAACAAAAAAAAAAAAAAAAAABFQBAAAAAgAKAAAAA=</HashCode>
+      <FileName>ShaderObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomModel" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAAAA=</HashCode>
+      <FileName>CustomModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeModel" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAAIA=</HashCode>
+      <FileName>CubeModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphObj_ColorLight" Collapsed="true">
+    <Position X="7" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAgBAAEgAAAAAAAAAAEAAAAAACAAAgAAAAAAA=</HashCode>
+      <FileName>GraphObj_ColorLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObject_FlatTexture" Collapsed="true">
+    <Position X="11.25" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AoAABAAAAJAAAgAAAAAAAACAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>GraphicsObject_FlatTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

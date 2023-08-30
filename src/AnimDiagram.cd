@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AnimController">
+    <Position X="6.5" Y="2.5" Width="3" />
+    <Members>
+      <Method Name="~AnimController" Hidden="true" />
+      <Method Name="AnimController" Hidden="true" />
+      <Method Name="baseComputeHierarchy" Hidden="true" />
+      <Method Name="baseSetAnimationPose" Hidden="true" />
+      <Method Name="baseSetBonePose" Hidden="true" />
+      <Method Name="baseSetInvPose" Hidden="true" />
+      <Method Name="charName2Enum" Hidden="true" />
+      <Method Name="ComputeHierarchyTable" Hidden="true" />
+      <Method Name="ComputeKeyFrame" Hidden="true" />
+      <Method Name="enumToStr" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="ProcessAnimation" Hidden="true" />
+      <Method Name="SetAnimationData" Hidden="true" />
+      <Method Name="SetAnimationHierarchy" Hidden="true" />
+      <Method Name="SetAnimationPose" Hidden="true" />
+      <Method Name="SetBonePose" Hidden="true" />
+      <Method Name="SetInvPose" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="AnimController::InstancenName" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AnimController.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="AnimController::Skeleton" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AnimController.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAxgCEAgAEAQEAAEAQCIAiAAAtAAUCIIgAAgACCBgAA=</HashCode>
+      <FileName>AnimController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimControllerHuman">
+    <Position X="9.75" Y="5.75" Width="3.25" />
+    <Members>
+      <Method Name="~AnimControllerHuman" Hidden="true" />
+      <Method Name="AnimControllerHuman" Hidden="true" />
+      <Method Name="ComputeHierarchyTable" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetAnimationPose" Hidden="true" />
+      <Method Name="SetBonePose" Hidden="true" />
+      <Method Name="SetInvPose" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIBAgEAAAAEQAAAAACAAAAAAAgEAACIIAAAwAAAAwAg=</HashCode>
+      <FileName>AnimControllerHuman.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimControllerTeddy">
+    <Position X="3.5" Y="5.75" Width="2.75" />
+    <Members>
+      <Method Name="~AnimControllerTeddy" Hidden="true" />
+      <Method Name="AnimControllerTeddy" Hidden="true" />
+      <Method Name="ComputeHierarchyTable" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetAnimationPose" Hidden="true" />
+      <Method Name="SetBonePose" Hidden="true" />
+      <Method Name="SetInvPose" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIBAAEAAAAEQgAAAACAAAAAAAgEAACIIAAAwAAAAwAg=</HashCode>
+      <FileName>AnimControllerTeddy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
